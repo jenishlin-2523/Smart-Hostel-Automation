@@ -60,7 +60,7 @@ const Login = () => {
           >
             <div style={styles.logoInner} />
           </motion.div>
-          <h2 style={styles.title}>Outpass Portal</h2>
+          <h2 style={styles.title}>Smart Outpass System</h2>
           <p style={styles.subtitle}>Enter your credentials to access the system</p>
         </div>
 
