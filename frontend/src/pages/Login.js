@@ -160,7 +160,7 @@ const styles = {
     height: "56px",
     backgroundColor: "#4CAF50",
     borderRadius: "18px",
-    display: "flex",
+    display: "flex",  
     alignItems: "center",
     justifyContent: "center",
     marginBottom: "24px",

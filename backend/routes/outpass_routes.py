@@ -146,7 +146,7 @@ def update_request_status(request_id):
         update_data = {"status": status, "updatedAt": datetime.utcnow()}
 
         if status == "approved":
-            qr_payload = {"id": str(outpass["_id"]), "studentId": outpass["studentId"]}
+            qr_payload = {"id": str(outpass["_id"]), "studentId": str(outpass["studentId"])}
             qr = qrcode.make(json.dumps(qr_payload))
             buffer = BytesIO()
             qr.save(buffer, format="PNG")
